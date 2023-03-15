@@ -1,4 +1,4 @@
-module github.com/Piotr1215/uptest
+module github.com/Piotr1215/perf-tool-uptest
 
 go 1.19
 
