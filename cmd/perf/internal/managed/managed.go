@@ -97,7 +97,7 @@ func applyResources(client dynamic.Interface, mrTemplatePaths map[string]int) er
 		}
 
 		for i := 1; i <= count; i++ {
-			o["metadata"].(map[string]interface{})["name"] = fmt.Sprintf("test-%d", i)
+			o["metadata"].(map[string]interface{})["name"] = fmt.Sprintf("testperfabc%d", i)
 
 			b, err := yaml.Marshal(o)
 			if err != nil {
