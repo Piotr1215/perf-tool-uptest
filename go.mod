@@ -1,4 +1,4 @@
-module github.com/sergenyalcin/uptest
+module github.com/Piotr1215/uptest
 
 go 1.19
 
